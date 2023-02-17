@@ -37,43 +37,13 @@ div {
     display: inline-block;
     margin-right: 30px;
     border-radius: 50%;
-    
 }
-
-#third-row .circle{
-    color: red; 
-    background: #de6868; 
-}  
-
-div:first-child.circle{
-    opacity: 0;
-}
-
-.circle.fancy{
-    border-style: dotted;
-}
-
-.circle.green, .square.green, .circle.fancy, .square.fancy{
-    color: blue;
-    background: #6392c0;
-}
-
-.circle:hover{
-    opacity: 0.5;
-}
-
-#second-row .circle:hover{
-    transform: scale(1.25); 
-}
-
 .square {
     width: 60px;
     height: 60px;
     background: white;
     display: inline-block;
     margin-right: 30px;
-    color: orange;
-    background: #e67e22;
 }
 .row {
     margin-bottom: 30px;
