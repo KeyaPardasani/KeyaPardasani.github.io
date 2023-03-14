@@ -1,0 +1,58 @@
+body{
+    background-image: url(back/Patterns_Twitter.png);
+    image-resolution: 50%;
+    
+}
+#backdrop{
+    background-color: #403F4C;
+}
+
+#title{
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 550px;
+    margin-top: 50px;
+    color: #F7B05B;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    color: #E84855;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+#menu-list{
+    font-size: 10px;
+    color: #F7B05B;
+}
+
+#menu-description{
+    font-size: 10px;
+    color: #F7B05B;
+}
+
+#allinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dot{
+    height: 350px;
+    width: 350px;
+    background-color: #93A29B;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 325px;
+    left: 1020px;
+    z-index: 0;
+}
+#homeimage{
+    z-index: 1;
+}
