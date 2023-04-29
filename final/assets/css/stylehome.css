@@ -1,0 +1,137 @@
+body{
+    background-color: #1E1E1E;
+    color: #C2847A; 
+    
+}
+
+#header{
+    font-size: 12px;
+    font-family: 'Gentium Basic';
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icongroup{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+#title{
+    font-size: 40px;
+    font-family: 'Gentium Basic';
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+#fronticons{
+    display: flex;
+    flex-direction: column;
+     
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Gentium Basic';
+    font-size: 15px;
+}
+
+.myworkimage:hover{
+    transform: scale(1.15);
+    opacity: 75%;
+}
+
+.picsoflifeimage:hover{
+    transform: scale(1.15);
+    opacity: 75%;
+}
+
+.myinterestsimage:hover{
+    transform: scale(1.15);
+    opacity: 75%;
+}
+
+#row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+#row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.AboutMeBlurb{
+    font-size: 10px;
+    
+    font-family: 'Gentium Basic';
+    display: flex;
+    flex-direction: row;
+    white-space: normal; 
+    margin-left: 250px;
+    margin-right: 0px;
+    height:250px;
+    width: 300px;
+    word-wrap: break-word;
+    
+}
+
+#metext{
+    margin-left: 1200px;
+}
+
+#footer {
+    bottom: 0;
+    font-size: 13px;
+ }
+ #contactinfo {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    justify-content: space-between;
+
+ }
+
+a:link {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: #C2847A;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  #colorbutton {
+    width: 150px;
+    display: block;
+    margin: auto;
+    font-family: 'Gentium Basic';
+    font-weight: bold;
+    color: #BAA898;
+    padding: 10px 18px;
+    border-radius: 21px;
+    white-space: nowrap;
+    background-color: transparent;
+    background-image: radial-gradient(#BAA898 0,#BAA898 75%,transparent 0,transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 0 0;
+    background-position: 50% 50%;
+    border: 1px solid #BAA898;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+
+  #colorbutton:hover {
+    color: #ebf6e0;
+    background-size: 105% 150%;
+  }
